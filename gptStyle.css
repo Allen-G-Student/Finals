@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    background-color: #a6a6a6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.footer-logo {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #444;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main-main {
+    display: flex;
+    min-height: 100vh;
+}
+
+aside {
+    flex: 0 0 15%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.list-group {
+    /* padding-right: 1000px; */ /* Remove unnecessary padding */
+}
+
+.carousel-inner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #a6a6a6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    /* Adjust padding or margins here if necessary */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
